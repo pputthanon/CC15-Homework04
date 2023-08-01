@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(./under.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transform: translate(0, 20%);
+        }
+
+        nav a {
+            text-decoration: none;
+            display: flex;
+            justify-content: right;
+            /* border: 1px solid black; */
+            margin-right: 5%;
+            margin-top: 1%;
+            font-size: 18px;
+        }
+
+        .icons > img {
+            width: 40px;
+            margin: 5px;
+            border-radius: 50%;
+            border: 1px solid #61448c;
+            padding: 2px;
+        }
+
+        .icons, section {
+            text-align: center;
+            /* margin-bottom: 3%; */
+            color: #61448c;
+        }
+
+        .under {
+            font-size: 100px;
+        }
+
+        section > p {
+            letter-spacing: 5px;
+        }
+
+        hr {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            height: 20px;
+        }
+
+        .box-left {
+            width: 21%;
+            border: 1px solid rgb(139, 52, 161);
+            background-color: rgb(139, 52, 161);
+            box-shadow: 1px 1px 10px 1px rgba(82, 49, 73, 0.8);
+        }
+
+        .box-right {
+            width: 9%;
+            /* border: 1px solid rgb(238, 114, 172); */
+            background-color: rgb(212, 155, 181);
+            box-shadow: 1px 1px 10px 1px rgba(82, 49, 73, 0.8);
+        }
+
+        .text {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text-left {
+            margin-left: 35%;
+        }
+
+        .text-right {
+            margin-right: 35%;
+        }
+
+        button {
+            /* border: 1px solid blue; */
+            width: 8%;
+            padding: 5px;
+            display: inline-block;
+            background-color: #6d578ee7;
+            color: aliceblue;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #61448c;
+            margin-top: 6%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <nav>
+            <a href="./index.html">Home</a>
+        </nav>
+   </header>
+
+ <main class="center"> 
+
+   <section>
+        <h1 class="under">Under <br> Construction</h1>
+        <br>
+        <p>SITE NEARLY READY</p> <br>
+        <div class="box">
+            <div class="box-left"></div>
+            <div class="box-right"></div>
+        </div>
+        <div class="text">
+            <div class="text-left">0%</div>
+            <div class="text-right">100%</div>
+        </div><br>
+        <button>Notify Me!</button>
+   </section>
+
+   <article>
+        <br>
+        <div class="icons">
+            <img src="./4facebook.svg" alt="facebook">
+            <img src="./4twitter.svg" alt="twitter">
+            <img src="./4linkedin.svg" alt="linkedin" width="20px">
+            <img src="./4letter.svg" alt="letter">
+        </div>
+   </article>
+
+   <footer>
+    <div class="footer">
+    <hr>
+        <p>Copyright &copy;2023 All rights reserved</p>
+    </div>
+   </footer>
+</main> 
+</body>
+</html>
